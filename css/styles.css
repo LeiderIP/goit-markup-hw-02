@@ -1,0 +1,36 @@
+.body{
+    font-family:'Roboto', sans-serif;
+}
+
+.buttonNav .buttonLinks{
+    color: rgb(0, 0, 0);
+    cursor: pointer ;
+}
+
+.classTitle{
+    background: #2F303A;
+    color: #FFFFFF;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.buttonTitle{
+    color: #FFFFFF;
+    background-color: #2196f3;
+    justify-items: center;
+    cursor: pointer;    
+}
+
+.buttonTitle:hover{
+    background-color: #FFFFFF;
+    color: #2196f3;
+} 
+
+.buttonNav .buttonLinks:active{
+    color: #2196f3;
+}
+
+.imagesTitle{
+    text-align: center;
+}
