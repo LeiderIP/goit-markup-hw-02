@@ -1,104 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/styles.css">
-    <link href="index.html">
-    
-</head>
-<body>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="index.html" />
+  </head>
+  <body class="body">
     <header>
-        <nav>
-          <a href="index.html">WebStudio</a>
-            <ul>
-                <li class="buttonNav"><a class="buttonLinks" href="#">Estudio</a></li>
-                <li class="buttonNav"><a class="buttonLinks" href="portfolio.html">Portafolio</a></li>
-                <li class="buttonNav"><a class="buttonLinks" href="#">Contactos</a></li>
-            </ul>
-        </nav>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+525555296000">+52 55 5529 6000</a></li>
+      <nav>
+        <a class="main_title" href="index.html">WebStudio</a>
+        <ul class="list_navigation">
+          <li class="button_nav"><a class="button_links" href="index.html">Estudio</a></li>
+          <li class="button_nav">
+            <a class="button_links current" href="portfolio.html">Portafolio</a>
+          </li>
+          <li class="button_nav"><a class="button_links" href="#">Contactos</a></li>
         </ul>
-      </header>
-      <main>
-        <section>
-            <ul>
-                <button type="button">Todo</button>
-                <button type="button">Sitios web</button>
-                <button type="button">Aplicaciones</button>
-                <button type="button">Disenio</button>
-                <button type="button">Marketing</button>
-            </ul>
-        </section>
-        <section>
-            <ul>
-                <li>
-                    <img src="./img/Project1WebsiteTechnoduck.jpg" alt="A laptop showing a Web-site" width="370" height="294" />
-                    <h3>Technoduck</h3>
-                    <p>Web-site</p>
-                </li>
-                <li>
-                    <img src="./img/Project2DesignPoster.jpg" alt="Two players playing basketball" width="370" height="294" />
-                    <h3>Poster New Orleans vs Golden Star</h3>
-                    <p>Design</p>
-                </li>
-                <li>
-                    <img src="./img/Project3AppsRestaurant.jpg" alt="An advertisement of a seafood restaurant" width="370" height="294" />
-                    <h3>SeaFood Restaurant</h3>
-                    <p>Apps</p>
-                </li>
-                <li>
-                    <img src="./img/Project4MarketingPrime.jpg" alt="A set of Black headphones" width="370" height="294" />
-                    <h3>Project Prime</h3>
-                    <p>Marketing</p>
-                </li>
-                <li>
-                    <img src="./img/Project5AppsBoxes.jpg" alt="A big white box next to a smaller brown one" width="370" height="294" />
-                    <h3>Project Boxes</h3>
-                    <p>Apps</p>
-                </li>
-                <li>
-                    <img src="./img/Project6WebsiteInspiration.jpg" alt="An IMac showing a map in black" width="370" height="294" />
-                    <h3>Inspiration has no Borders</h3>
-                    <p>Web-site</p>
-                </li>
-                <li>
-                    <img src="./img/Project7DesignLimited.jpg" alt="A wide open white magazine" width="370" height="294" />
-                    <h3>Limited Edition</h3>
-                    <p>Design</p>
-                </li>
-                <li>
-                    <img src="./img/Project8MarketingLab.jpg" alt="a white tag" width="370" height="294" />
-                    <h3>Project LAB</h3>
-                    <p>Marketing</p>
-                </li>
-                <li>
-                    <img src="./img/project9AppsBusiness.jpg" alt="two ahnds typing on a macbook" width="370" height="294" />
-                    <h3>Growing Business</h3>
-                    <p>Apps</p>
-                </li>
-            
-            </ul>
-        </section>
-      </main>
-      <footer>
-        <a href="#">WebStudio</a>
-            <address>
-                <ul>
-                <li>
-                    <a href="enlace_google_maps" target="_blank" rel="noopener noreferrer nofollow"
-                    >Calz. Ticomán 500, Ciudad de México, CDMX, México
-                    </a>
-                </li>
-                <li><a href="mailto:info@example.com">info@example.com</a></li>
-                <li><a href="tel:+525555296000">+52 55 5529 6000</a></li>
-                </ul>
-            </address>
-        </footer>
-      </footer> 
-</body>
+      </nav>
+      <ul class="list_contacts">
+        <li><a class="contacts_link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a class="contacts_link" href="tel:+525555296000">+52 55 5529 6000</a></li>
+      </ul>
+    </header>
+    <main>
+      <section>
+        <ul class="list_options">
+          <li><button class="main_option" type="button">Todo</button></li>
+          <li><button class="main_option" type="button">Sitios web</button></li>
+          <li><button class="main_option" type="button">Aplicaciones</button></li>
+          <li><button class="main_option" type="button">Disenio</button></li>
+          <li><button class="main_option" type="button">Marketing</button></li>
+        </ul>
+      </section>
+      <section>
+        <ul class="list_images">
+          <li>
+            <img
+              src="./img/Project1WebsiteTechnoduck.jpg"
+              alt="A laptop showing a Web-site"
+              width="370"
+              height="294"
+            />
+            <h3 class="main_article">Technoduck</h3>
+            <p class="article_name">Web-site</p>
+          </li>
+          <li>
+            <img
+              src="./img/Project2DesignPoster.jpg"
+              alt="Two players playing basketball"
+              width="370"
+              height="294"
+            />
+            <h3 class="main_article">Poster New Orleans vs Golden Star</h3>
+            <p class="article_name">Design</p>
+          </li>
+          <li>
+            <img
+              src="./img/Project3AppsRestaurant.jpg"
+              alt="An advertisement of a seafood restaurant"
+              width="370"
+              height="294"
+            />
+            <h3 class="main_article">SeaFood Restaurant</h3>
+            <p class="article_name">Apps</p>
+          </li>
+          <li>
+            <img
+              src="./img/Project4MarketingPrime.jpg"
+              alt="A set of Black headphones"
+              width="370"
+              height="294"
+            />
+            <h3 class="main_article">Project Prime</h3>
+            <p class="article_name">Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./img/Project5AppsBoxes.jpg"
+              alt="A big white box next to a smaller brown one"
+              width="370"
+              height="294"
+            />
+            <h3 class="main_article">Project Boxes</h3>
+            <p class="article_name">Apps</p>
+          </li>
+          <li>
+            <img
+              src="./img/Project6WebsiteInspiration.jpg"
+              alt="An IMac showing a map in black"
+              width="370"
+              height="294"
+            />
+            <h3 class="main_article">Inspiration has no Borders</h3>
+            <p class="article_name">Web-site</p>
+          </li>
+          <li>
+            <img
+              src="./img/Project7DesignLimited.jpg"
+              alt="A wide open white magazine"
+              width="370"
+              height="294"
+            />
+            <h3 class="main_article">Limited Edition</h3>
+            <p class="article_name">Design</p>
+          </li>
+          <li>
+            <img src="./img/Project8MarketingLab.jpg" alt="a white tag" width="370" height="294" />
+            <h3 class="main_article">Project LAB</h3>
+            <p class="article_name">Marketing</p>
+          </li>
+          <li>
+            <img
+              src="./img/project9AppsBusiness.jpg"
+              alt="two ahnds typing on a macbook"
+              width="370"
+              height="294"
+            />
+            <h3 class="main_article">Growing Business</h3>
+            <p class="article_name">Apps</p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <ul class="list_title">
+        <li><a class="main_title" href="#">WebStudio</a></li>
+      </ul>
+      <address>
+        <ul class="list_footer">
+          <li><a
+              class="address_map"
+              href="enlace_google_maps"
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+              >696 Park Ave, New York, NY 10065, United States</a>
+          </li>
+          <li><a class="contacts_link" href="mailto:info@example.com">info@example.com</a></li>
+          <li><a class="contacts_link" href="tel:+1212-772-4150">+1 212-772-41590</a></li>
+        </ul>
+      </address>
+    </footer>
+  </body>
 </html>
