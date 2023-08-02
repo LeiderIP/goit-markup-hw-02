@@ -63,9 +63,6 @@
 .title{
     background: var(--background-color-1);
     text-align: center;
-    width: 1600px;
-    height: 600px;
-    top: 80px;
 }
 
 .title_text{
@@ -126,9 +123,6 @@
 
 .team{
     background-color: var(--background-color-2);
-    width: 1600px;
-    height: 648px;
-    top: 1510px;
 }
 
 .team_title{
@@ -180,8 +174,6 @@
 }
 
 /* portfolio */
-.list_options{
-}
 
 .main_option{
     font-family: var(--font-family-1);
