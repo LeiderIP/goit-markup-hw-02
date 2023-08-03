@@ -27,10 +27,6 @@
     text-decoration: none;
 }
 
-.current {
-    color: var(--primary-color);
-}
-
 .main_title{
     color: var(--primary-color);
     font-family: var(--font-family-2);
@@ -47,6 +43,10 @@
 }
 
 .button_nav .button_links:hover{
+    color: var(--primary-color);
+}
+
+.button_nav .current {
     color: var(--primary-color);
 }
 
